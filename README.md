@@ -3,6 +3,23 @@ My learnings in C
 
 Anything I learned in C. I will put it here. For my own sanity.
 
+Compiling/Compiler:
+gcc
+clang
+cc
+
+Compiling a code:
+<compiler> source.c
+ex:
+cc source.c
+
+another way:
+cc source.c -o source.out 
+The source.out will be the executable name, not a.out
+
+Advanced Compiling:
+gcc -O -Wall -pedantic -ansi -std=c99 -o source source.c
+
 Derivatives:
 /* standard library*/
 #include <stdio.h>
