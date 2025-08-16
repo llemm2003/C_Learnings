@@ -7,6 +7,15 @@ Derivatives:
 /* standard library*/
 #include <stdio.h>
 
+Functions:
+
+User Function:
+
+Main Function:
+int main(void) {
+	statements;
+	return 0;
+}
 
 Commenting:
 
@@ -17,19 +26,27 @@ or for multi-line
 /* 
 */
 
-Main function:
-int main(void) {
-	statements;
-	return 0;
-}
+or C99 
+
+//
+
 
 Variable datatype declaration:
+Variable starts with numbers or letters only.
+Each variable declaration can be multiple names separated but with semicolon(;) at the end.
+Can be declared when needed(c99). But Previous version declares the variable at the start. 
 int => integers
 float => numbers with decimal. Can store more numbers than int but slower arithmetics.
 
 int variable1, variable2, variableN;
 float variable1, variable2,variableN;
 
+Constant Variable:
+const int variable_name=123;
+
+Macro Variable:
+
+#define MACRO_VARIABLE 123
 
 Printing:
 
